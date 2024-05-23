@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: radial-gradient(#7ce8a9, #a9def9);
+    }
+
+p{
+    font-family: Cochin, cursive;
+}
+
+h1{
+    font-family: "Nabla", cursive;
+    font-size: 60px;
+    background-color: rgba(0, 255, 128, 0.822);
+    padding: 50px;
+    width: 100%;
+}
+img{
+    border: 12px dashed red;
+    border-radius: 50px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(231, 98, 15);
+}
+ol{
+    list-style: 1;
+    width: 30%;
+    margin: auto;
+}
+ul{
+    list-style-type: square;
+    width: 30%;
+    margin: auto;
+}
+table{
+    border: 5px solid black;
+    border-collapse: inherit;
+}
+tr:nth-of-type(1)>th{
+    background-color: #f0d316;
+}
+
+th{
+    background-color: #87f016;
+    color: black;
+}
+
+td, th{
+    padding: 5px;
+    text-align: center;
+}
